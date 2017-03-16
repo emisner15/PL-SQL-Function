@@ -1,0 +1,41 @@
+
+Function created.
+
+No errors.
+
+*****************************************
+TESTING is_on_order (note: uses bool_to_string)
+*****************************************
+
+test passes if 0805343024 is shown on-order (returns true)
+==========================================================
+
+PL/SQL procedure successfully completed.
+
+
+ON_ORDER_STATUS                                                                 
+--------------------------------                                                
+TRUE                                                                            
+
+
+test passes if 087150331X is shown NOT on-order (rets false)
+==========================================================
+
+PL/SQL procedure successfully completed.
+
+
+ON_ORDER_STATUS                                                                 
+--------------------------------                                                
+FALSE                                                                           
+
+
+test passes if 1313131313 is shown NOT on-order (rets false)
+==========================================================
+
+PL/SQL procedure successfully completed.
+
+
+ON_ORDER_STATUS                                                                 
+--------------------------------                                                
+FALSE                                                                           
+

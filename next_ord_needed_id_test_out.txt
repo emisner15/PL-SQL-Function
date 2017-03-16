@@ -1,0 +1,52 @@
+
+*****************************************
+TESTING next_ord_needed_id
+*****************************************
+
+test passes if the next ord_needed_id suggested is 1011:
+==========================================================
+
+PL/SQL procedure successfully completed.
+
+
+RESULT_KEY                                                                      
+----------                                                                      
+      1011                                                                      
+
+
+Commit complete.
+
+
+8 rows deleted.
+
+
+test passes if the next ord_needed_id suggested is 1:
+==========================================================
+
+PL/SQL procedure successfully completed.
+
+
+RESULT_KEY                                                                      
+----------                                                                      
+         1                                                                      
+
+
+Rollback complete.
+
+
+1 row updated.
+
+
+test passes if the next ord_needed_id suggested is 2013:
+==========================================================
+
+PL/SQL procedure successfully completed.
+
+
+RESULT_KEY                                                                      
+----------                                                                      
+      2013                                                                      
+
+
+Rollback complete.
+
